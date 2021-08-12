@@ -11,7 +11,6 @@ const TransactionTable = ({ transactions }) => {
           <th>Currency</th>
         </tr>
       </thead>
-
       <tbody>
         {transactions.map(transaction => (
           <tr key={transaction.id}>
