@@ -11,7 +11,8 @@ const Transaction = ({ type, amount, currency }) => {
 };
 
 Transaction.propTypes = {
-  type: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(['invoice', 'payment', 'withdrawal', 'deposit'])
+    .isRequired,
   amount: PropTypes.string.isRequired,
   currency: PropTypes.string.isRequired,
 };
