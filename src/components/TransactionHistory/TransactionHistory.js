@@ -26,7 +26,6 @@ const TransactionTable = ({ transactions }) => {
     </table>
   );
 };
-
 TransactionTable.propTypes = {
   transactions: PropTypes.arrayOf(
     PropTypes.shape({
