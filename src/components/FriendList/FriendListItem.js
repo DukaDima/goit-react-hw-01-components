@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import s from './FrendList.module.css';
 
-const FrendlistItem = ({ avatar, name, isOnline, id }) => {
+const FrendlistItem = ({ avatar, name, isOnline }) => {
   return (
     <div className={s.frendCard}>
       <span
